@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creations | The Tactile Curator</title>
+  <meta name="description" content="A curated gallery of limited edition creative projects, designed to feel like physical collectibles in a digital space." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Material Symbols -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./css/tokens.css" />
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/typography.css" />
+  <link rel="stylesheet" href="./css/layout.css" />
+  <link rel="stylesheet" href="./css/components.css" />
+  <link rel="stylesheet" href="./css/animations.css" />
+
+  <!-- Fallback: show content when JS is disabled -->
+  <noscript>
+    <style>.reveal { opacity: 1; }</style>
+  </noscript>
+</head>
+<body>
+
+  <!-- ============================================================
+       DECORATIVE BACKGROUND
+       ============================================================ -->
+  <div class="decorative-bg" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       NAVIGATION BAR
+       ============================================================ -->
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="navbar__logo">Asa Creations</a>
+
+    <!-- Desktop links -->
+    <div class="navbar__links" id="desktop-nav">
+      <a href="#home" class="navbar__link">Home</a>
+      <a href="#creations" class="navbar__link navbar__link--active">Creations</a>
+      <a href="#about" class="navbar__link">About</a>
+      <a href="https://x.com/66nerumu?s=20" class="navbar__link" target="_blank" rel="noopener noreferrer">Contact</a>
+    </div>
+
+    <div class="navbar__actions">
+      <a href="https://lit.link/asa-nerumu" class="navbar__icon-btn" aria-label="SNS Links" id="btn-profile" target="_blank" rel="noopener noreferrer">
+        <span class="material-symbols-outlined">person</span>
+      </a>
+      <!-- Hamburger (mobile only) -->
+      <button class="navbar__menu-toggle" aria-label="Open menu" id="menu-toggle">
+        <span class="material-symbols-outlined">menu</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       MOBILE MENU OVERLAY
+       ============================================================ -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <a href="#home" class="mobile-menu__link">Home</a>
+    <a href="#creations" class="mobile-menu__link">Creations</a>
+    <a href="#about" class="mobile-menu__link">About</a>
+    <a href="https://x.com/66nerumu?s=20" class="mobile-menu__link" target="_blank" rel="noopener noreferrer">Contact</a>
+    <div class="mobile-menu__actions">
+      <a href="https://lit.link/asa-nerumu" class="navbar__icon-btn" aria-label="SNS Links" target="_blank" rel="noopener noreferrer">
+        <span class="material-symbols-outlined">person</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       MAIN CONTENT
+       ============================================================ -->
+  <main>
+
+    <!-- ======================== HERO ======================== -->
+    <header class="hero container" id="home">
+      <div class="hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title display-lg">
+            ONNAOTA-ASA<br />
+            <span class="hero__title-accent">Creations</span>
+          </h1>
+          <p class="hero__description body-lg">
+            A curated gallery of limited edition creative projects, designed to feel like physical collectibles in a digital space.
+          </p>
+        </div>
+        <div class="hero__badge-wrapper">
+          <div class="hero__badge">
+            <span class="hero__badge-dot"></span>
+            <span class="label-md">New Drop: Neo-Noir Series</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ======================== GALLERY ======================== -->
+    <section class="gallery container section" id="creations">
+      <div class="gallery__grid">
+        <!-- GALLERY_START -->
+
+        <!-- Card 1: 260505_1daymae.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-secondary floating floating-delay-0">
+            <div class="card__image-wrapper" style="aspect-ratio: 2400 / 1792">
+              <img class="card__image" src="./images/260505_1daymae.webp" alt="COUNTDOWN" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">COUNTDOWN</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">生成AIなんでも展示会 カウントダウン画像</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: 260505_about-samune.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-primary floating floating-delay-1">
+            <div class="card__image-wrapper" style="aspect-ratio: 1672 / 941">
+              <img class="card__image" src="./images/260505_about-samune.webp" alt="THUMBNAIL" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">THUMBNAIL</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">note記事 サムネイル画像</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: 260505_anthorothy-samune.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-tertiary floating floating-delay-2">
+            <div class="card__image-wrapper" style="aspect-ratio: 1800 / 1005">
+              <img class="card__image" src="./images/260505_anthorothy-samune.webp" alt="THUMBNAIL" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">THUMBNAIL</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">女オタ生成AI部アンソロジーの原稿のサムネイル画像</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: 260505_notesamune.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-secondary floating floating-delay-3">
+            <div class="card__image-wrapper" style="aspect-ratio: 1536 / 1024">
+              <img class="card__image" src="./images/260505_notesamune.webp" alt="THUMBNAIL" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">THUMBNAIL</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.05.05</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5: 260504_2daymae.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-primary floating floating-delay-4">
+            <div class="card__image-wrapper" style="aspect-ratio: 2400 / 1792">
+              <img class="card__image" src="./images/260504_2daymae.webp" alt="COUNTDOWN" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">COUNTDOWN</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.05.04</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6: 260503_3daymae.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-tertiary floating floating-delay-5">
+            <div class="card__image-wrapper" style="aspect-ratio: 2400 / 1792">
+              <img class="card__image" src="./images/260503_3daymae.webp" alt="COUNTDOWN" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">COUNTDOWN</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.05.03</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 7: 260503_A0bai_T_fix.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-secondary floating floating-delay-0">
+            <div class="card__image-wrapper" style="aspect-ratio: 1200 / 1698">
+              <img class="card__image" src="./images/260503_A0bai_T_fix.webp" alt="生成AIなんでも展示会 ポスター" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">生成AIなんでも展示会 ポスター</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.05.03</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 8: 260502_4daymae.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-primary floating floating-delay-1">
+            <div class="card__image-wrapper" style="aspect-ratio: 1200 / 896">
+              <img class="card__image" src="./images/260502_4daymae.webp" alt="COUNTDOWN" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">COUNTDOWN</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.05.02</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 9: 260430_5daymae.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-tertiary floating floating-delay-2">
+            <div class="card__image-wrapper" style="aspect-ratio: 1200 / 896">
+              <img class="card__image" src="./images/260430_5daymae.webp" alt="COUNTDOWN" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">COUNTDOWN</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.04.30</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 10: 260430_6daymae.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-secondary floating floating-delay-3">
+            <div class="card__image-wrapper" style="aspect-ratio: 1200 / 896">
+              <img class="card__image" src="./images/260430_6daymae.webp" alt="COUNTDOWN" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">COUNTDOWN</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.04.30</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 11: 260429_7daymae.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-primary floating floating-delay-4">
+            <div class="card__image-wrapper" style="aspect-ratio: 2400 / 1792">
+              <img class="card__image" src="./images/260429_7daymae.webp" alt="COUNTDOWN" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">COUNTDOWN</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.04.29</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 12: 260428_meisi.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-tertiary floating floating-delay-5">
+            <div class="card__image-wrapper" style="aspect-ratio: 1300 / 867">
+              <img class="card__image" src="./images/260428_meisi.webp" alt="Meisi" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Meisi</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.04.28</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 13: 260426_poster_A0_asa_ol.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-secondary floating floating-delay-0">
+            <div class="card__image-wrapper" style="aspect-ratio: 1200 / 1697">
+              <img class="card__image" src="./images/260426_poster_A0_asa_ol.webp" alt="生成AIなんでも展示会 ポスター" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">生成AIなんでも展示会 ポスター</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.04.26</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 14: 260404_stackchan-repo-samne.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-primary floating floating-delay-1">
+            <div class="card__image-wrapper" style="aspect-ratio: 1280 / 714">
+              <img class="card__image" src="./images/260404_stackchan-repo-samne.webp" alt="Stackchan Repo Samne" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Stackchan Repo Samne</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.04.04</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 15: 260326_familiar-ai_告知画像.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-tertiary floating floating-delay-2">
+            <div class="card__image-wrapper" style="aspect-ratio: 2752 / 1536">
+              <img class="card__image" src="./images/260326_familiar-ai_%E5%91%8A%E7%9F%A5%E7%94%BB%E5%83%8F.webp" alt="Familiar Ai 告知画像" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Familiar Ai 告知画像</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.03.26</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 16: 260316_follower-200.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-secondary floating floating-delay-3">
+            <div class="card__image-wrapper" style="aspect-ratio: 1200 / 896">
+              <img class="card__image" src="./images/260316_follower-200.webp" alt="Follower 200" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Follower 200</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.03.16</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 17: 260314_anthoro-hyousi.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-primary floating floating-delay-4">
+            <div class="card__image-wrapper" style="aspect-ratio: 2331 / 3308">
+              <img class="card__image" src="./images/260314_anthoro-hyousi.webp" alt="アンソロジー表紙" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">アンソロジー表紙</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.03.14</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 18: 260313_robo.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-tertiary floating floating-delay-5">
+            <div class="card__image-wrapper" style="aspect-ratio: 1800 / 1005">
+              <img class="card__image" src="./images/260313_robo.webp" alt="THUMBNAIL" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">THUMBNAIL</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.03.13</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 19: 260308_sion.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-secondary floating floating-delay-0">
+            <div class="card__image-wrapper" style="aspect-ratio: 2048 / 2048">
+              <img class="card__image" src="./images/260308_sion.webp" alt="Sion" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Sion</h3>
+                <span class="chip chip--tertiary label-sm">Personal</span>
+              </div>
+              <p class="card__description body-sm">2026.03.08</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 20: 260303_nanndemo-kokuchi.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-primary floating floating-delay-1">
+            <div class="card__image-wrapper" style="aspect-ratio: 1376 / 768">
+              <img class="card__image" src="./images/260303_nanndemo-kokuchi.webp" alt="Nanndemo Kokuchi" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Nanndemo Kokuchi</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.03.03</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 21: 260301_001-cmyk.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-tertiary floating floating-delay-2">
+            <div class="card__image-wrapper" style="aspect-ratio: 1575 / 859">
+              <img class="card__image" src="./images/260301_001-cmyk.webp" alt="THUMBNAIL" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">THUMBNAIL</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.03.01</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 22: 260301_dialogue.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-secondary floating floating-delay-3">
+            <div class="card__image-wrapper" style="aspect-ratio: 1920 / 1006">
+              <img class="card__image" src="./images/260301_dialogue.webp" alt="THUMBNAIL" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">THUMBNAIL</h3>
+                <span class="chip chip--tertiary label-sm">Personal</span>
+              </div>
+              <p class="card__description body-sm">2026.03.01</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 23: 260227_hirune.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-primary floating floating-delay-4">
+            <div class="card__image-wrapper" style="aspect-ratio: 1792 / 2400">
+              <img class="card__image" src="./images/260227_hirune.webp" alt="Hirune" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Hirune</h3>
+                <span class="chip chip--tertiary label-sm">Personal</span>
+              </div>
+              <p class="card__description body-sm">2026.02.27</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 24: 260216_reposamune.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-tertiary floating floating-delay-5">
+            <div class="card__image-wrapper" style="aspect-ratio: 1920 / 1006">
+              <img class="card__image" src="./images/260216_reposamune.webp" alt="THUMBNAIL" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">THUMBNAIL</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.02.16</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 25: 260214_ansoroLP-MV.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-secondary floating floating-delay-0">
+            <div class="card__image-wrapper" style="aspect-ratio: 1600 / 894">
+              <img class="card__image" src="./images/260214_ansoroLP-MV.webp" alt="AnsoroLP MV" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">AnsoroLP MV</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.02.14</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 26: 260131_hakkason-0.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-primary floating floating-delay-1">
+            <div class="card__image-wrapper" style="aspect-ratio: 2048 / 1529">
+              <img class="card__image" src="./images/260131_hakkason-0.webp" alt="COUNTDOWN" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">COUNTDOWN</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.01.31</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 27: 260130_hakkason-1.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-tertiary floating floating-delay-2">
+            <div class="card__image-wrapper" style="aspect-ratio: 2048 / 1529">
+              <img class="card__image" src="./images/260130_hakkason-1.webp" alt="COUNTDOWN" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">COUNTDOWN</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.01.30</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 28: 260129_hakkason-2.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-secondary floating floating-delay-3">
+            <div class="card__image-wrapper" style="aspect-ratio: 2048 / 1529">
+              <img class="card__image" src="./images/260129_hakkason-2.webp" alt="COUNTDOWN" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">COUNTDOWN</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.01.29</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 29: 260128_follower-100.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-primary floating floating-delay-4">
+            <div class="card__image-wrapper" style="aspect-ratio: 2048 / 1529">
+              <img class="card__image" src="./images/260128_follower-100.webp" alt="Follower 100" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Follower 100</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.01.28</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 30: 260128_hakkason-3.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-tertiary floating floating-delay-5">
+            <div class="card__image-wrapper" style="aspect-ratio: 2048 / 1529">
+              <img class="card__image" src="./images/260128_hakkason-3.webp" alt="COUNTDOWN" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">COUNTDOWN</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.01.28</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 31: 260127_hakkason-4.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-secondary floating floating-delay-0">
+            <div class="card__image-wrapper" style="aspect-ratio: 2048 / 1529">
+              <img class="card__image" src="./images/260127_hakkason-4.webp" alt="COUNTDOWN" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">COUNTDOWN</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.01.27</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 32: 260126_hakkason-5.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-primary floating floating-delay-1">
+            <div class="card__image-wrapper" style="aspect-ratio: 2048 / 1529">
+              <img class="card__image" src="./images/260126_hakkason-5.webp" alt="COUNTDOWN" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">COUNTDOWN</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.01.26</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 33: 260125_hakkason-6.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-tertiary floating floating-delay-2">
+            <div class="card__image-wrapper" style="aspect-ratio: 2048 / 1529">
+              <img class="card__image" src="./images/260125_hakkason-6.webp" alt="COUNTDOWN" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">COUNTDOWN</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.01.25</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 34: 260124_hakkason-7.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-secondary floating floating-delay-3">
+            <div class="card__image-wrapper" style="aspect-ratio: 2048 / 1529">
+              <img class="card__image" src="./images/260124_hakkason-7.webp" alt="COUNTDOWN" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">COUNTDOWN</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.01.24</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 35: 260107_hakkason-pr.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-primary floating floating-delay-4">
+            <div class="card__image-wrapper" style="aspect-ratio: 2944 / 1440">
+              <img class="card__image" src="./images/260107_hakkason-pr.webp" alt="Hakkason Pr" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Hakkason Pr</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.01.07</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 36: 260101_nennga.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-tertiary floating floating-delay-5">
+            <div class="card__image-wrapper" style="aspect-ratio: 1696 / 2528">
+              <img class="card__image" src="./images/260101_nennga.webp" alt="Nennga" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Nennga</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2026.01.01</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 37: 251231_nenpyou.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-secondary floating floating-delay-0">
+            <div class="card__image-wrapper" style="aspect-ratio: 2816 / 1536">
+              <img class="card__image" src="./images/251231_nenpyou.webp" alt="女オタ生成AI部 2025まとめ" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">女オタ生成AI部 2025まとめ</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2025.12.31</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 38: 251231_sibainu-1.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-primary floating floating-delay-1">
+            <div class="card__image-wrapper" style="aspect-ratio: 1024 / 1024">
+              <img class="card__image" src="./images/251231_sibainu-1.webp" alt="Sibainu" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Sibainu</h3>
+                <span class="chip chip--tertiary label-sm">Personal</span>
+              </div>
+              <p class="card__description body-sm">2025.12.31</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 39: 251230_mybest.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-tertiary floating floating-delay-2">
+            <div class="card__image-wrapper" style="aspect-ratio: 1408 / 768">
+              <img class="card__image" src="./images/251230_mybest.webp" alt="Mybest" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Mybest</h3>
+                <span class="chip chip--tertiary label-sm">Personal</span>
+              </div>
+              <p class="card__description body-sm">2025.12.30</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 40: 251230_mybest2.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-secondary floating floating-delay-3">
+            <div class="card__image-wrapper" style="aspect-ratio: 1472 / 704">
+              <img class="card__image" src="./images/251230_mybest2.webp" alt="Mybest2" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Mybest2</h3>
+                <span class="chip chip--tertiary label-sm">Personal</span>
+              </div>
+              <p class="card__description body-sm">2025.12.30</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 41: 251228_peatixMV.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-primary floating floating-delay-4">
+            <div class="card__image-wrapper" style="aspect-ratio: 920 / 450">
+              <img class="card__image" src="./images/251228_peatixMV.webp" alt="THUMBNAIL" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">THUMBNAIL</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2025.12.28</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 42: 251224_slide-howto.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-tertiary floating floating-delay-5">
+            <div class="card__image-wrapper" style="aspect-ratio: 2752 / 1536">
+              <img class="card__image" src="./images/251224_slide-howto.webp" alt="THUMBNAIL" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">THUMBNAIL</h3>
+                <span class="chip chip--tertiary label-sm">Personal</span>
+              </div>
+              <p class="card__description body-sm">2025.12.24</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 43: 251221_insatu-ws.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-secondary floating floating-delay-0">
+            <div class="card__image-wrapper" style="aspect-ratio: 848 / 1264">
+              <img class="card__image" src="./images/251221_insatu-ws.webp" alt="DOUJINSHI WS" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">DOUJINSHI WS</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2025.12.21</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 44: 251211_doujin-ws.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-primary floating floating-delay-1">
+            <div class="card__image-wrapper" style="aspect-ratio: 2752 / 1536">
+              <img class="card__image" src="./images/251211_doujin-ws.webp" alt="THUMBNAIL" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">THUMBNAIL</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2025.12.11</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 45: 251202_クリスマスカード.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-tertiary floating floating-delay-2">
+            <div class="card__image-wrapper" style="aspect-ratio: 1749 / 1241">
+              <img class="card__image" src="./images/251202_%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%89.webp" alt="クリスマスカード" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">クリスマスカード</h3>
+                <span class="chip chip--tertiary label-sm">Personal</span>
+              </div>
+              <p class="card__description body-sm">2025.12.02</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 46: 251122_suno-event.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-secondary floating floating-delay-3">
+            <div class="card__image-wrapper" style="aspect-ratio: 2048 / 2048">
+              <img class="card__image" src="./images/251122_suno-event.webp" alt="Suno Event" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Suno Event</h3>
+                <span class="chip chip--tertiary label-sm">Personal</span>
+              </div>
+              <p class="card__description body-sm">2025.11.22</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 47: 251121_gyoza.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-primary floating floating-delay-4">
+            <div class="card__image-wrapper" style="aspect-ratio: 1024 / 1024">
+              <img class="card__image" src="./images/251121_gyoza.webp" alt="Gyoza" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Gyoza</h3>
+                <span class="chip chip--tertiary label-sm">Personal</span>
+              </div>
+              <p class="card__description body-sm">2025.11.21</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 48: 251116_ADVENTER.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-tertiary floating floating-delay-5">
+            <div class="card__image-wrapper" style="aspect-ratio: 1024 / 1024">
+              <img class="card__image" src="./images/251116_ADVENTER.webp" alt="ADVENTER" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">ADVENTER</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2025.11.16</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 49: 251111_Instagram.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-secondary floating floating-delay-0">
+            <div class="card__image-wrapper" style="aspect-ratio: 1080 / 1350">
+              <img class="card__image" src="./images/251111_Instagram.webp" alt="Instagram" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Instagram</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2025.11.11</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 50: 251028_suno-event.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-primary floating floating-delay-1">
+            <div class="card__image-wrapper" style="aspect-ratio: 1024 / 1024">
+              <img class="card__image" src="./images/251028_suno-event.webp" alt="Suno Event" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Suno Event</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2025.10.28</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 51: 251022_logo.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-tertiary floating floating-delay-2">
+            <div class="card__image-wrapper" style="aspect-ratio: 1024 / 1024">
+              <img class="card__image" src="./images/251022_logo.webp" alt="Logo" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Logo</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2025.10.22</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 52: 251022_SNSヘッダー画像案.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-secondary floating floating-delay-3">
+            <div class="card__image-wrapper" style="aspect-ratio: 1472 / 704">
+              <img class="card__image" src="./images/251022_SNS%E3%83%98%E3%83%83%E3%83%80%E3%83%BC%E7%94%BB%E5%83%8F%E6%A1%88.webp" alt="SNSヘッダー画像" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">SNSヘッダー画像</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2025.10.22</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 53: 251015_hakkason-mv.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-primary floating floating-delay-4">
+            <div class="card__image-wrapper" style="aspect-ratio: 1280 / 720">
+              <img class="card__image" src="./images/251015_hakkason-mv.webp" alt="Hakkason Mv" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Hakkason Mv</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2025.10.15</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 54: 251012_hakkason-pr.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-tertiary floating floating-delay-5">
+            <div class="card__image-wrapper" style="aspect-ratio: 1024 / 819">
+              <img class="card__image" src="./images/251012_hakkason-pr.webp" alt="Hakkason Pr" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Hakkason Pr</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2025.10.12</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 55: 250830_ochakai.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-secondary floating floating-delay-0">
+            <div class="card__image-wrapper" style="aspect-ratio: 2000 / 1414">
+              <img class="card__image" src="./images/250830_ochakai.webp" alt="Ochakai" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Ochakai</h3>
+                <span class="chip chip--primary label-sm">Onna-ota</span>
+              </div>
+              <p class="card__description body-sm">2025.08.30</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 56: 250827_bg-park2.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-primary floating floating-delay-1">
+            <div class="card__image-wrapper" style="aspect-ratio: 800 / 436">
+              <img class="card__image" src="./images/250827_bg-park2.webp" alt="Bg Park2" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Bg Park2</h3>
+                <span class="chip chip--tertiary label-sm">Personal</span>
+              </div>
+              <p class="card__description body-sm">2025.08.27</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 57: 250827_bg-town.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-tertiary floating floating-delay-2">
+            <div class="card__image-wrapper" style="aspect-ratio: 2618 / 1536">
+              <img class="card__image" src="./images/250827_bg-town.webp" alt="Bg Town" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Bg Town</h3>
+                <span class="chip chip--tertiary label-sm">Personal</span>
+              </div>
+              <p class="card__description body-sm">2025.08.27</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 58: 250817_bg-rojiura.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-secondary floating floating-delay-3">
+            <div class="card__image-wrapper" style="aspect-ratio: 2816 / 1536">
+              <img class="card__image" src="./images/250817_bg-rojiura.webp" alt="Bg Rojiura" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Bg Rojiura</h3>
+                <span class="chip chip--tertiary label-sm">Personal</span>
+              </div>
+              <p class="card__description body-sm">2025.08.17</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 59: 250802_game.webp -->
+        <div class="gallery__item reveal">
+          <div class="card card--accent-primary floating floating-delay-4">
+            <div class="card__image-wrapper" style="aspect-ratio: 2816 / 1536">
+              <img class="card__image" src="./images/250802_game.webp" alt="Game" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__header">
+                <h3 class="card__title headline-lg">Game</h3>
+                <span class="chip chip--tertiary label-sm">Personal</span>
+              </div>
+              <p class="card__description body-sm">2025.08.02</p>
+            </div>
+          </div>
+        </div>
+        <!-- GALLERY_END -->
+      </div>
+      <div class="gallery__more-wrapper">
+        <button class="gallery__more-btn" id="show-more-btn">Show More</button>
+      </div>
+    </section>
+
+    <!-- ======================== ABOUT ======================== -->
+    <section class="about container section" id="about">
+      <div class="about__inner">
+        <div class="about__heading">
+          <img class="about__icon" src="./images/icon.webp" alt="Profile icon" width="120" height="120" />
+          <h2 class="about__title display-md">Asa <span class="hero__title-accent">Profile</span></h2>
+        </div>
+        <p class="about__text body-lg">
+          90年代後半の個人サイト文化や二次創作を原点に、オタク的な「好き」を軸とした表現活動を続けている。HTMLを独学で学び、自らの居場所を作る感覚と、創作を通じて他者とつながる体験をベースに活動を開始。
+        </p>
+        <p class="about__text body-lg">
+          ジャンルや推しの変遷を経ながらも、アニメ・ゲーム・音楽などのカルチャーに触発され、その都度創作意欲を更新。離れていた時期を挟みつつも、作品との出会いをきっかけに何度でも立ち戻り、アウトプットを再開してきた。
+        </p>
+        <p class="about__text body-lg">
+          現在は生成AIなどの新しい技術も取り入れながら、従来のオタク文化と掛け合わせた表現を模索中。手探りで工夫しながら「好き」を形にするスタンスは変えず、試作と実験を繰り返している。
+        </p>
+        <a href="https://lit.link/asa-nerumu" class="about__link body-md" target="_blank" rel="noopener noreferrer">SNS LINKS →</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer" id="contact">
+    <div class="footer__inner">
+      <div class="footer__brand">Asa Creations</div>
+      <div class="footer__copyright">© 2026 Asa. All Rights Reserved.</div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Overlay -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox__backdrop" id="lightbox-backdrop"></div>
+    <button class="lightbox__close" id="lightbox-close" aria-label="Close preview">
+      <span class="material-symbols-outlined">close</span>
+    </button>
+    <div class="lightbox__body" id="lightbox-body">
+      <img class="lightbox__image" id="lightbox-img" src="" alt="" />
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="./js/main.js"></script>
+</body>
+</html>
