@@ -23,6 +23,7 @@
   position: relative;
   padding-top: var(--space-lg);
   padding-bottom: var(--space-4xl);
+  overflow: hidden;
 }
 
 .gallery__grid {
@@ -40,27 +41,35 @@
     gap: var(--space-2xl);
   }
 
-  .gallery__item:nth-child(6n+1) { transform: rotate(-3deg); }
-  .gallery__item:nth-child(6n+2) { transform: rotate(2deg);  margin-top: -2rem; }
+  .gallery__item:nth-child(6n+1) { transform: rotate(-2deg); }
+  .gallery__item:nth-child(6n+2) { transform: rotate(1.5deg);  margin-top: -2rem; }
   .gallery__item:nth-child(6n+3) { transform: rotate(-1deg); }
-  .gallery__item:nth-child(6n+4) { transform: rotate(5deg);  margin-left: 3rem; }
-  .gallery__item:nth-child(6n+5) { transform: rotate(-4deg); }
-  .gallery__item:nth-child(6n+6) { transform: rotate(3deg);  margin-top: 6rem; }
+  .gallery__item:nth-child(6n+4) { transform: rotate(3deg);  margin-left: 0; }
+  .gallery__item:nth-child(6n+5) { transform: rotate(-2deg); }
+  .gallery__item:nth-child(6n+6) { transform: rotate(2deg);  margin-top: 6rem; }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .gallery__grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
     row-gap: 8rem;
   }
 
-  .gallery__item:nth-child(6n+1) { transform: rotate(-3deg); margin-top: 3rem; }
-  .gallery__item:nth-child(6n+2) { transform: rotate(2deg);  margin-top: 0; }
+  .gallery__item:nth-child(6n+1) { transform: rotate(-2deg); margin-top: 3rem; }
+  .gallery__item:nth-child(6n+2) { transform: rotate(1.5deg);  margin-top: 0; }
   .gallery__item:nth-child(6n+3) { transform: rotate(-1deg); margin-top: 6rem; }
-  .gallery__item:nth-child(6n+4) { transform: rotate(5deg);  margin-top: -5rem; margin-left: 3rem; }
-  .gallery__item:nth-child(6n+5) { transform: rotate(-4deg); margin-top: 2rem; }
-  .gallery__item:nth-child(6n+6) { transform: rotate(3deg);  margin-top: 0; }
+  .gallery__item:nth-child(6n+4) { transform: rotate(3deg);  margin-top: -5rem; margin-left: 0; }
+  .gallery__item:nth-child(6n+5) { transform: rotate(-2deg); margin-top: 2rem; }
+  .gallery__item:nth-child(6n+6) { transform: rotate(2deg);  margin-top: 0; }
+}
+
+@media (min-width: 1400px) {
+  .gallery__item:nth-child(6n+1) { transform: rotate(-3deg); }
+  .gallery__item:nth-child(6n+2) { transform: rotate(2deg); }
+  .gallery__item:nth-child(6n+4) { transform: rotate(5deg);  margin-left: 3rem; }
+  .gallery__item:nth-child(6n+5) { transform: rotate(-4deg); }
+  .gallery__item:nth-child(6n+6) { transform: rotate(3deg); }
 }
 
 /* ============================================================
