@@ -80,24 +80,18 @@
   <main>
 
     <!-- ======================== HERO ======================== -->
-    <header class="hero container" id="home">
-      <div class="hero__inner">
-        <div class="hero__content">
-          <h1 class="hero__title display-lg">
-            ONNAOTA-ASA<br />
-            <span class="hero__title-accent">Creations</span>
-          </h1>
-          <p class="hero__description body-lg">
-            A curated gallery of limited edition creative projects, designed to feel like physical collectibles in a digital space.
-          </p>
-        </div>
-        <div class="hero__badge-wrapper">
-          <div class="hero__badge">
-            <span class="hero__badge-dot"></span>
-            <span class="label-md">New Drop: Neo-Noir Series</span>
-          </div>
-        </div>
-      </div>
+    <header class="hero" id="home">
+      <picture class="hero__picture">
+        <source media="(min-width: 768px)" srcset="./img/mv-pc.png" />
+        <img
+          class="hero__image"
+          src="./img/mv-sp.png"
+          alt="ONNAOTA-ASA CREATIONS — Illustration, Design, Art Direction"
+          width="864"
+          height="1821"
+          fetchpriority="high"
+        />
+      </picture>
     </header>
 
     <!-- ======================== GALLERY ======================== -->
